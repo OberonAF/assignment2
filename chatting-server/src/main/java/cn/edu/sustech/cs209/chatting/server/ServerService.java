@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-public class ServerService implements Runnable{
+public class ServerService implements Runnable {
     private Socket socket;
     private ServerData serverData;
     private ObjectInputStream ois;

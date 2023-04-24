@@ -7,9 +7,9 @@ import java.net.Socket;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        final int SERVER_PORT = 8888;
+        final int serverPort = 8888;
         System.out.println("Starting server");
-        ServerSocket serverSocket = new ServerSocket(SERVER_PORT);
+        ServerSocket serverSocket = new ServerSocket(serverPort);
         ServerData serverData = new ServerData();
         System.out.println("Waiting...");
 
